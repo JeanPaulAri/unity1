@@ -30,7 +30,7 @@ public class JhonSystem : MonoBehaviour
             Jump();
         }
     }
-
+    //declaring
     private void Jump()
     {
         _rigidbody2D.AddForce(Vector2.up * jumpForce);
